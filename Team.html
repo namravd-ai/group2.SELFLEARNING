@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: linear-gradient(135deg, #f5e6d8, #d8c1ac);
+            color: #2d1e12;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .header {
+            text-align: center;
+            padding: 60px 20px;
+            font-size: 48px;
+            font-weight: 700;
+            color: #3c2a21;
+            text-shadow: 0px 4px 14px rgba(0,0,0,0.2);
+        }
+
+        .team-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 40px;
+        }
+
+        .member-card {
+            width: 300px;
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(12px);
+            border-radius: 20px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            transition: 0.3s ease-in-out;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+        }
+
+        .member-card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 16px 30px rgba(0,0,0,0.25);
+        }
+
+        .name {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #4c3327;
+        }
+
+        .role {
+            font-size: 16px;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+
+        .bottom {
+            text-align: center;
+            margin: 40px;
+        }
+
+        .btn {
+            padding: 14px 26px;
+            background: #3c2a21;
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 8px;
+            box-shadow: 0px 6px 12px rgba(0,0,0,0.3);
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #24170e;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        Meet Our Team ✨
+    </div>
+
+    <div class="team-section">
+
+        <div class="member-card">
+            <div class="name">Krish</div>
+            <div class="role">📸 Created all project images and managing the animations</div>
+        </div>
+
+        <div class="member-card">
+            <div class="name">Isha</div>
+            <div class="role">💻 Coded the “Evolution of Engines” page and "Meet Our Team" page	</div>
+        </div>
+
+        <div class="member-card">
+            <div class="name">Mahir</div>
+            <div class="role">🎨 CSS Designer for all pages</div>
+        </div>
+
+        <div class="member-card">
+            <div class="name">Namra</div>
+            <div class="role">🧩 Main Page Builder & Structure Designer</div>
+        </div>
+
+        <div class="member-card">
+            <div class="name">Veer</div>
+            <div class="role">🔍 Research Analyst,Collected all of the information for the website</div>
+        </div>
+
+    </div>
+
+    <div class="bottom">
+        <a href="APstage2.html" class="btn">← Back to Main Page</a>
+    </div>
+
+</body>
+</html>
